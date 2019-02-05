@@ -985,7 +985,8 @@ updatedHGNC <- HGNChelper::checkGeneSymbols(unique(GWASprocessed$MAPPED_GENE),
                                               unmapped.as.na = T)
 ```
 <br>
-The NAs allows us to extract the list of unmapped symbols easily   
+The NAs allows us to extract the list of unmapped symbols easily  
+
 ```R
 updatedHGNC$x[is.na(updatedHGNC$Suggested.Symbol)]
 
@@ -1117,19 +1118,23 @@ geneSNPs <- base::lengths(base::lapply(gwas2sym, "[[", "MAPPED_GENE"))
 geneSNPs <- base::data.frame(HGNC = names(geneSNPs), SNPcount = geneSNPs)
 ```
 <br>
+
 Calculating the number of all phenotype-associated SNPs
+
 ```R
 allSNPs <- base::sum(geneSNPs$SNPcount)
 allSNPs
 # [1] 60967
 ```
 <br>
-Calculating The percentage
+
+Calculating The percentage  
 ```R
 geneSNPs$percentage <- (geneSNPs$SNPcount / allSNPs) * 100
 ```
 <br>
-Plotting
+
+Plotting  
 ```R
 x11()
 p <- ggplot(geneSNPs, aes(x = HGNC, y = percentage)) + 
@@ -1146,7 +1151,7 @@ p
 
 #### **6.2 Distribution of number-of-associated phenotypes over a gene**
 
-Fetching the number of associated phenotypes over the HGNC symbols
+Fetching the number of associated phenotypes over the HGNC symbols  
 ```R
 #This code was copied and adjusted. The author: Shosaco, that published the code in this URL:
 #https://stackoverflow.com/questions/45760779/subset-rows-from-list-of-dataframe
@@ -1159,7 +1164,8 @@ genePhen <- base::data.frame(HGNC = names(genePhen), PhenotypesCount = genePhen)
 ```
 
 <br>
-Plotting a scatter plot
+
+Plotting a scatter plot  
 ```R
 x11()
 p <- ggplot(genePhen, aes(x = HGNC, y = PhenotypesCount)) + 
