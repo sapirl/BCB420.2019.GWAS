@@ -369,8 +369,6 @@ View(NAintronic)
 
 **When observing the data, several kinds of associations are revealed**  
 
-<br>
-
 **(1)** SNP X SNP interactions: more complex kind of association between a disease and SNPs. Most SNP x SNP interactions contain at least one SNP that does not have an equivalent HGNC symbol, either because the SNP is intergenic or because it is mapped to a gene that wasn't characterized. In total, if we remove all rows of SNP interaction data, we have 178 out of 437 observations remaining. 
  
 ```R
@@ -646,6 +644,7 @@ SearchSeparator(data = GWASsubset, separator = ",")
 # [1] "None"
 ```
 <br>
+
 Searching for Tabs
 ```R
 SearchSeparator(data = GWASsubset, separator = "\t")
@@ -663,6 +662,7 @@ SearchSeparator(data = GWASsubset, separator = "\t")
 # [1] "None"
 ```
 <br>
+
 Searching for semicolons
 ```R
 SearchSeparator(data = GWASsubset, separator = ";")
@@ -682,6 +682,7 @@ SearchSeparator(data = GWASsubset, separator = ";")
 ```
 <br>
 <br>
+
 Therefore, we will separate the rows that have mutliple values denoted with ";" so that the out out would be a data frame with only one value in every row.  
 In order to do so with `tidyr::separate_rows()`, a specific row has to contain the same number of soon-to-be separated values within each chosen column.  
 <br>
