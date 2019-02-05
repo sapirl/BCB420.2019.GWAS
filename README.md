@@ -1299,6 +1299,9 @@ If that is the case, may the reason be that `biomaRt` package contains partial i
 <br><br>
 
 ### **8 Annotating the example dataset**
+
+----
+
 <br>
 
 #### **8.1 Loading the example gene set**
