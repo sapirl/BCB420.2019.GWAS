@@ -134,7 +134,7 @@ Quoted and paraphrased from [GWAS websit](https://www.ebi.ac.uk/gwas/docs/file-d
 - **GENOTYPING_TECHNOLOGY**: Genotyping technology/ies used in this study, with additional array information (ex. Immunochip or Exome array) in brackets.
 
 <br>
-[Full Description of Abbreviations used in the Catalog ](https://www.ebi.ac.uk/gwas/docs/abbreviations)
+[Full Description of Abbreviations used in the Catalog](https://www.ebi.ac.uk/gwas/docs/abbreviations)
 <br><br><br>
 
 
