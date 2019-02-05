@@ -366,7 +366,7 @@ View(NAintronic)
 ```
 <br>
 <br>
-**When observing the data, several kinds of associations are revealed:**  
+**When observing the data, several kinds of associations are revealed**  
 <br>
 
 **(1)** SNP X SNP interactions: more complex kind of association between a disease and SNPs. Most SNP x SNP interactions contain at least one SNP that does not have an equivalent HGNC symbol, either because the SNP is intergenic or because it is mapped to a gene that wasn't characterized. In total, if we remove all rows of SNP interaction data, we have 178 out of 437 observations remaining. 
@@ -394,7 +394,7 @@ utils::str(NOsnpX)
 <br>
 <br>
 
-**(2)**SNP X mitochondrial interactions: this data was removed in the former step, when we used the pattern "SNP" within the "grepl"
+**(2)** SNP X mitochondrial interactions: this data was removed in the former step, when we used the pattern "SNP" within the "grepl"
  
 ```R
 #A data frame with only SNP x mitochondrial interactions data
@@ -419,7 +419,7 @@ utils::str(SNPmit)
 <br>
 <br>
 
-**(3)**"No mapped genes": the "MAPPED_GENE" column contains both HGNC symbols of mapped SNPs and the string "No mapped genes" that corresponds to SNPs that were not mapped to genes. 
+**(3)** "No mapped genes": the "MAPPED_GENE" column contains both HGNC symbols of mapped SNPs and the string "No mapped genes" that corresponds to SNPs that were not mapped to genes. 
  
 ```R
 #A data frame with only "no mapped genes" data
@@ -447,7 +447,7 @@ NOsnpXMapped <- NOsnpX[!base::grepl(NOsnpX$MAPPED_GENE, pattern = "No mapped gen
 <br>
 <br>
 
-**(4)**Intergenic: whenever the pattern " - " appears, it denotes for an intergenic SNP. There are rows that have both intergenic and not intergenic SNPs. According to the following code and data frame's structure, 258 out of 437 mutations have at least one intergenic SNP
+**(4)** Intergenic: whenever the pattern " - " appears, it denotes for an intergenic SNP. There are rows that have both intergenic and not intergenic SNPs. According to the following code and data frame's structure, 258 out of 437 mutations have at least one intergenic SNP
  
 ```R
 #Observing the intergenic SNPs
@@ -475,7 +475,7 @@ NOsnpXMappedIntergenic <- NOsnpXMapped[!base::grepl(NOsnpXMapped$MAPPED_GENE, pa
 <br>
 <br>
 
-**(5)**SNPs that are mapped to uncharacterized genes: identified by "LOC"
+**(5)** SNPs that are mapped to uncharacterized genes: identified by "LOC"
  
 ```R
 #A data frame with all rows that contain "LOC" identifier within the "MAPPED_GENE" column
