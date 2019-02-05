@@ -134,11 +134,11 @@ Quoted and paraphrased from [GWAS websit](https://www.ebi.ac.uk/gwas/docs/file-d
 - **GENOTYPING_TECHNOLOGY**: Genotyping technology/ies used in this study, with additional array information (ex. Immunochip or Exome array) in brackets.
 
 <br>
-[**Full Description of Abbreviations used in the Catalog**](https://www.ebi.ac.uk/gwas/docs/abbreviations)
+[ **Full Description of Abbreviations used in the Catalog** ](https://www.ebi.ac.uk/gwas/docs/abbreviations)
 <br><br><br>
 
 
-####**In summary:**
+#### **In summary:**
  - Association evidence in GWAS is determined according to the SNPs (or haplotypes) that are most strongly associated with trait + risk/effect allele, according to their reported P value. 
  - For each association, odds ratio (OR) or beta-coefficient (BETA) associated with strongest SNP risk allele are reported, as well as the risk allele frequency in controls (if not available among all controls, among the control group with the largest sample size)
  - Within the GWAS dataset, the column "MAPPED_GENE" provides the HGNC symbols of which the SNPs are mapped to. Some SNPs do not correspond to genes (i.e., intergenic) and some correspond to genes that were not yet characterized with HGNC symbols (denoted as "LOC" + identifier). This means that the main challenge for aligning between GWAS database and the appropriate HGNC symbols is to filter out the redundant SNP data, i.e., all SNPs that are not mapped to a gene that has a defined HGNC symbol. Another challenge would be to organize the filtered GWAS database to be comfortably accessible according to a desired HGNC symbol.
@@ -146,12 +146,12 @@ Quoted and paraphrased from [GWAS websit](https://www.ebi.ac.uk/gwas/docs/file-d
 <br>
 <br>
 
-###**3 Data download and cleanup**
+### **3 Data download and cleanup**
 
 ----
 
 
-####**3.1 Preparations: packages**
+#### **3.1 Preparations: packages**
 
  - To begin, we need to make sure the required packages are installed.
  - The following code was written by the author Boris Steipe and published at [GitHub](https://github.com/hyginn/R_Exercise-BasicSetup/blob/master/plottingIntro.R)  
@@ -226,7 +226,7 @@ if (!require(rlist, quietly=TRUE)) {
 
 <br><br>
  
-####**3.2 Downloading the data**
+#### **3.2 Downloading the data**
 
 **Notes**:
 
@@ -286,7 +286,7 @@ str(GWASraw)
 ```
 <br>
 
-####**3.3 choosing the relevant columns**
+#### **3.3 choosing the relevant columns**
 As shown above, the raw GWAS database has 34 columns.  
 Most columns hold data that does not concern to SNPs and their associated diseases and risks. The full semantics is described in chapter 2 of this README file.  
 <br>
