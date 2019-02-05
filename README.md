@@ -366,7 +366,9 @@ View(NAintronic)
 ```
 <br>
 <br>
+
 **When observing the data, several kinds of associations are revealed**  
+
 <br>
 
 **(1)** SNP X SNP interactions: more complex kind of association between a disease and SNPs. Most SNP x SNP interactions contain at least one SNP that does not have an equivalent HGNC symbol, either because the SNP is intergenic or because it is mapped to a gene that wasn't characterized. In total, if we remove all rows of SNP interaction data, we have 178 out of 437 observations remaining. 
