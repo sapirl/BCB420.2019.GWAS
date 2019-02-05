@@ -1489,6 +1489,38 @@ base::sum(lengths(lapply(exmpAnnotated,
                          function(x) return(x[ ,"SNPS"]))))
 # [1] 182
 ```
+<br>
 
+An important note:  creating a list of unique associated phenotypes for all of the data (and not for each gene) is problematic because the same phenotypes are describes differently along the data, and not under the same name identifier. For instance, this is a list of all unique phenotypes that contains the word "Alzheimer's":
 
+```R
+unique(GWASprocessed$`DISEASE/TRAIT`)[grep(pattern = "Alzheimer's" ,x = unique(GWASprocessed$`DISEASE/TRAIT`))]
+#  [1] "Alzheimer's disease (late onset)"                                                                                                                 
+#  [2] "Alzheimer's disease"                                                                                                                              
+#  [3] "Alzheimer's disease biomarkers"                                                                                                                   
+#  [4] "Alzheimer's disease (APOE e4 interaction)"                                                                                                        
+#  [5] "Entorhinal cortical volume (Alzheimer's disease interaction)"                                                                                     
+#  [6] "Total ventricular volume (Alzheimer's disease interaction)"                                                                                       
+#  [7] "Whole-brain volume (Alzheimer's disease interaction)"                                                                                             
+#  [8] "Alzheimer's disease (cognitive decline)"                                                                                                          
+#  [9] "Cerebrospinal AB1-42 levels in Alzheimer's disease dementia"                                                                                      
+# [10] "Response to cholinesterase inhibitors in Alzheimer's disease"                                                                                     
+# [11] "Dementia and core Alzheimer's disease neuropathologic changes"                                                                                    
+# [12] "Alzheimer's disease (survival time)"                                                                                                              
+# [13] "Late-onset Alzheimer's disease"                                                                                                                   
+# [14] "Cerebrospinal fluid levels of Alzheimer's disease-related proteins"                                                                               
+# [15] "Alzheimer's disease (age of onset)"                                                                                                               
+# [16] "Psychosis and Alzheimer's disease"                                                                                                                
+# [17] "Psychosis in Alzheimer's disease"                                                                                                                 
+# [18] "Alzheimer's disease in APOE e4- carriers"                                                                                                         
+# [19] "Alzheimer's disease in APOE e4+ carriers"                                                                                                         
+# [20] "Accelerated cognitive decline after conversion of mild cognitive impairment to Alzheimer's disease (Alzhiemer's diagnosis trajectory interaction)"
+# [21] "Posterior cortical atrophy and Alzheimer's disease"                                                                                               
+# [22] "Family history of Alzheimer's disease"                                                                                                            
+# [23] "Maternal history of Alzheimer's disease"                                                                                                          
+# [24] "Alzheimer's disease or family history of Alzheimer's disease"                                                                                     
+# [25] "Alzheimer's disease progression score" 
+```
 
+<br>
+It is clear that most of those "unique" phenotypes are copies/duplications of others, but there are some that are justifiably labeled as unique phenotype entities. So, annotating the data according to the phenotypes is a very complex labeling issue, that should be solved with clever labeling algorithms that are suitable for the challenges of health care data.
