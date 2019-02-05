@@ -1205,6 +1205,7 @@ Creating a table that contains both phenotype counts and SNPs percentage data
 SNPphen<- cbind(PhenotypesCount = genePhen$PhenotypesCount,geneSNPs[,c("percentage", "HGNC")])
 ```
 <br>
+
 Plotting  
 ```R
 x11(width = 7.5)
