@@ -838,7 +838,8 @@ head(unique(GWASprocessed$`DISEASE/TRAIT`[grep(GWASprocessed$`DISEASE/TRAIT`, pa
 # [6] "Response to radiotherapy in prostate cancer (toxicity, decreased urine stream)"
 ```
 <br>
-We can see that the "MAPPED_GENE" column contains ", " as separator  
+We can see that the "MAPPED_GENE" column contains ", " as separator
+
 ```R
 head(unique(GWASprocessed$MAPPED_GENE[grep(GWASprocessed$MAPPED_GENE, pattern = ",")]))
 # [1] "LOC102724748, ERAP1"  "LOC105376845, WNT4"   "RPS10P26, TLK2"       "MFRP, C1QTNF5"       
@@ -846,6 +847,7 @@ head(unique(GWASprocessed$MAPPED_GENE[grep(GWASprocessed$MAPPED_GENE, pattern = 
 ```
 <br>
 We can see that the "STRONGEST SNP-RISK ALLELE" column contains only one row that uses ", " as a separator. This row has only one value of "MAPPED_GENE" and multiple values of "SNPS".  
+
 ```R
 head(unique(GWASprocessed$"STRONGEST SNP-RISK ALLELE"[grep(GWASprocessed$"STRONGEST SNP-RISK ALLELE", pattern = ",")]))
 # [1] "rs11070668-A, rs11070670-A, rs12440434-A, rs11636875-A, rs2413923-A, rs16961929-G, rs934741-G, rs8031813-A, rs7178573-G, rs11070665-G, rs10519201-C, rs12593599-G, rs12915940-G, rs16952958-A, rs11070664-A, rs4608275-G, rs1007662-G, rs17384124-A, rs12915772-A, rs4775789-A, rs10851473-G, rs4491452-A, rs11638748-G, rs4774529-G, rs7178085-C, rs7164451-A, rs4474633-G, rs10519199-A"
