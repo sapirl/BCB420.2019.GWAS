@@ -1010,6 +1010,7 @@ length(which(GWASprocessed$MAPPED_GENE %in% updatedHGNC$x[is.na(updatedHGNC$Sugg
 # [1] 244
 ```
 <br>
+
 Checking how many rows currently exist in `GWASprocessed`  
 ```R
 nrow(GWASprocessed)
