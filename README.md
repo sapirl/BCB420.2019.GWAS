@@ -1031,7 +1031,8 @@ for (i in seq_along(updatedHGNC$x)){
 ```
 <br>
 
-Checking how many rows currently exist in `GWASprocessed`  
+Checking how many rows currently exist in `GWASprocessed`. This is equal to the number of phenotype associated SNPs that exist in the final mapping tool.
+
 ```R
 nrow(GWASprocessed)
 # [1] 60967
@@ -1472,4 +1473,22 @@ names(exmpAnnotated) == c(GeneAppears)
 
 ```
 <br>
+
+How many unique association phenotypes does the example data retrieves? (unique for each gene) 
+```R
+base::sum(lengths(lapply(exmpAnnotated,
+                         function(x) return(unique(x[ ,"DISEASE/TRAIT"])))))
+# [1] 140
+```
+<br>
+
+How many SNPs does the example data retrieves?
+
+```R
+base::sum(lengths(lapply(exmpAnnotated,
+                         function(x) return(x[ ,"SNPS"]))))
+# [1] 182
+```
+
+
 
