@@ -827,7 +827,7 @@ SearchSeparator(data = GWASprocessed, separator = ",")
 <br>
 Evaluating when does the commas appear in each column - is it for separation or for other reasons?  
 
-It seams that the "DISEASE/TRAIT" column mostly contains "," not as separators for different diseases. For that reason, this column should not be separated according to the existance of commas.
+It seams that the "DISEASE/TRAIT" column mostly contains "," not as separators for different diseases. For that reason, this column should not be separated according to the existance of commas.  
 ```R
 head(unique(GWASprocessed$`DISEASE/TRAIT`[grep(GWASprocessed$`DISEASE/TRAIT`, pattern = ",")]))
 # [1] "Allergic disease (asthma, hay fever or eczema)"                                
@@ -838,14 +838,14 @@ head(unique(GWASprocessed$`DISEASE/TRAIT`[grep(GWASprocessed$`DISEASE/TRAIT`, pa
 # [6] "Response to radiotherapy in prostate cancer (toxicity, decreased urine stream)"
 ```
 <br>
-We can see that the "MAPPED_GENE" column contains ", " as separator
+We can see that the "MAPPED_GENE" column contains ", " as separator  
 ```R
 head(unique(GWASprocessed$MAPPED_GENE[grep(GWASprocessed$MAPPED_GENE, pattern = ",")]))
 # [1] "LOC102724748, ERAP1"  "LOC105376845, WNT4"   "RPS10P26, TLK2"       "MFRP, C1QTNF5"       
 # [5] "LOC105375580, DPP6"   "TRIM39, TRIM39-RPP21"
 ```
 <br>
-We can see that the "STRONGEST SNP-RISK ALLELE" column contains only one row that uses ", " as a separator. This row has only one value of "MAPPED_GENE" and multiple values of "SNPS".
+We can see that the "STRONGEST SNP-RISK ALLELE" column contains only one row that uses ", " as a separator. This row has only one value of "MAPPED_GENE" and multiple values of "SNPS".  
 ```R
 head(unique(GWASprocessed$"STRONGEST SNP-RISK ALLELE"[grep(GWASprocessed$"STRONGEST SNP-RISK ALLELE", pattern = ",")]))
 # [1] "rs11070668-A, rs11070670-A, rs12440434-A, rs11636875-A, rs2413923-A, rs16961929-G, rs934741-G, rs8031813-A, rs7178573-G, rs11070665-G, rs10519201-C, rs12593599-G, rs12915940-G, rs16952958-A, rs11070664-A, rs4608275-G, rs1007662-G, rs17384124-A, rs12915772-A, rs4775789-A, rs10851473-G, rs4491452-A, rs11638748-G, rs4774529-G, rs7178085-C, rs7164451-A, rs4474633-G, rs10519199-A"
@@ -868,7 +868,7 @@ GWASprocessed[40939, c("MAPPED_GENE", "STRONGEST SNP-RISK ALLELE", "SNPS" ,"RISK
 # 66146                    NR
 ```
 <br>
-Checking weather the number of values in "STRONGEST SNP-RISK ALLELE" and "SNPS" is equal
+Checking weather the number of values in "STRONGEST SNP-RISK ALLELE" and "SNPS" is equal  
 ```R
 stringr::str_count(GWASprocessed[40939, c("STRONGEST SNP-RISK ALLELE", "SNPS")], "\\, ")
 #[1] 27 27
@@ -884,7 +884,7 @@ grep(GWASprocessed$"SNPS", pattern = ",")
 # [1] 40939
 ```
 <br>
-The "RISK ALLELE FREQUENCY" column has only one row with commas, and according to what is presented in the following code, this line is due to a mistake within the data.
+The "RISK ALLELE FREQUENCY" column has only one row with commas, and according to what is presented in the following code, this line is due to a mistake within the data.  
 ```R
 #Locating the rows
 grep(GWASprocessed$"RISK ALLELE FREQUENCY", pattern = ",")
@@ -914,7 +914,7 @@ We can see that this row is informative, thus we will keep it.
 <br>
 **In summary**, the "GWASprocessed" contains rows that need to be separated with according to "MAPPED_GENE" only, besides one row (40939) that needs to be separated according to "SNPS" and "STRONGEST SNP-RISK ALLELE" columns.  
 <br>
-Separating "GWASprocessed":
+Separating "GWASprocessed":  
 ```R
 #Separating according to "MAPPED_GENE"
 GWASprocessed <- tidyr::separate_rows(data = GWASprocessed, 
@@ -948,13 +948,13 @@ GWASprocessed <- GWASprocessed[!base::grepl(x = GWASprocessed$MAPPED_GENE,  patt
 ```
 <br>
 
-#### **4.5 Combining GWASprocessed and GWASsubset**
+#### **4.5 Combining GWASprocessed and GWASsubset**  
 ```R
 GWASprocessed <- base::rbind(GWASprocessed, GWASsubset)
 ```
 <br> 
 
-Deleting the "INTERGENIC" column that does not supply any neccessary information anymore
+Deleting the "INTERGENIC" column that does not supply any neccessary information anymore  
 ```R
 GWASprocessed$INTERGENIC <- NULL
 ```
@@ -976,13 +976,13 @@ GWASprocessed$INTERGENIC <- NULL
 Using the `checkGeneSymbols()` function for checking for updates and corrections of the HGNC symbols of GWAS  
 Note that an explenatory warning is always retreived when using the `unmapped.as.na = T` argument (that adds NA for symbols that weren't identified and weren't corrected)  
 
-First, using `unmapped.as.na = T` so the values of `Suggested.Symbol` column have either an updated and corrected HGNC symbols or NAs.
+First, using `unmapped.as.na = T` so the values of `Suggested.Symbol` column have either an updated and corrected HGNC symbols or NAs.  
 ```R
 updatedHGNC <- HGNChelper::checkGeneSymbols(unique(GWASprocessed$MAPPED_GENE),
                                               unmapped.as.na = T)
 ```
 <br>
-The NAs allows us to extract the list of unmapped symbols easily  
+The NAs allows us to extract the list of unmapped symbols easily   
 ```R
 updatedHGNC$x[is.na(updatedHGNC$Suggested.Symbol)]
 
