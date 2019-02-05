@@ -1244,7 +1244,8 @@ The following code was copied from the code written by the author Boris Steipe, 
                              mart = myMart)
 ``` 
 <br>
-Compering tmp$ with the final genesymbols of the gwas2sym database  
+
+Compering `tmp$hgnc_symbol` with the final genesymbols of the gwas2sym database  
 ```R
 base::setdiff(names(gwas2sym), tmp$hgnc_symbol)
 #  [1] "RPS10P26"         "LPCAT1 /// GPAT3" "CASC21"           "TRA"              "ZZZ3"            
