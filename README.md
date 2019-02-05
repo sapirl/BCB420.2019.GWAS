@@ -887,6 +887,7 @@ grep(GWASprocessed$"SNPS", pattern = ",")
 ```
 <br>
 The "RISK ALLELE FREQUENCY" column has only one row with commas, and according to what is presented in the following code, this line is due to a mistake within the data.  
+
 ```R
 #Locating the rows
 grep(GWASprocessed$"RISK ALLELE FREQUENCY", pattern = ",")
