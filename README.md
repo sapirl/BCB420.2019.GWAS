@@ -24,13 +24,6 @@ The package serves dual duty, as an RStudio project, as well as an R package tha
 
 This package supports R users, researchers and developers that want to map or index the GWAS data to  HGNC symbols.
 <br>
-
-or
-
-<br>
-
-This package is a mapping tool between GWAS database and HGNC gene symbols. It includes the description of each of the needed steps for performing the mapping, as well as the required packages and codes.<br>
-This package contains descriptions and codes for downloading the database, mapping it, and annotating the example gene set.<br>
 <br>
 
 **In this project**
@@ -41,18 +34,39 @@ This package contains descriptions and codes for downloading the database, mappi
    |__.gitignore
    |__.Rbuildignore
    |__BCB420.2019.GWAS.Rproj
+   |__BCB420_2019_GWAS.html
+   |__BCB420_2019_GWAS.Rmd
    |__DESCRIPTION
    |__dev/
+      |__functionTemplate.R
       |__rptTwee.R
-      |__toBrowser.R               # display .md files in your browser
+      |__toBrowser.R
    |__inst/
       |__extdata/
+         |__exmpAnnotated.yaml
+         |__gwas2sym.RData
+         |__test_lseq.dat
+      |__img/
+         |__correlation.png
+         |__Density_phenotypes.png
+         |__percentage.png
+         |__Scatter_phenotypes.png
       |__scripts/
+         |__scriptTemplate.R
    |__LICENSE
+   |__man/
+      |__lseq.Rd
    |__NAMESPACE
    |__R/
+      |__lseq.R
       |__zzz.R
-   |__README.md                    # this file
+   |__README.md         #This file
+   |__tests/
+      |__testthat.R
+      |__testthat/
+         |__helper-functions.R
+         |__test_lseq.R
+         
 ```
 
 
@@ -72,12 +86,13 @@ There are several versions available to download, as described [here](https://ww
 This package uses the 1.0.2 version, which is the most updated one, that also includes the ontology for the mapped trait, the study accession ID and the genotyping technology data
 <br><br><br>
 
-####**2.1 Data Semantics**  
+#### **2.1 Data Semantics**  
+
 Quoted and paraphrased from [GWAS websit](https://www.ebi.ac.uk/gwas/docs/file-downloads)
 <br>
 <br>
 
-#####*File headers for catalog version 1.0.2*
+##### *File headers for catalog version 1.0.2*
 
 - **DATE ADDED TO CATALOG**: Date a study is published in the catalog
 - **PUBMEDID**: PubMed identification number

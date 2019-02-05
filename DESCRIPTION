@@ -7,7 +7,8 @@ Authors@R: c(
     person("Boris", "Steipe", email = "boris.steipe@utoronto.ca", role = c("ctb"), comment = c(ORCID = "0000-0002-1134-6758")),
     person("Sapir", "Labes", email = "sapir.labes@mail.huji.ac.il", role = c("aut","cre"), comment = c(ORCID = "0000-0002-9478-5974")),
     person("Tarun", "Bhavnani", email = "", role = c("ctb"), comment = c(StacksOverflow = "https://stackoverflow.com/users/2384397/tarun-bhavnani")),
-    person("Boris", "Steipe", email = "boris.steipe@utoronto.ca", role = c("ctb"), comment = c(ORCID = "0000-0002-1134-6758"))
+    person("Shosaco", "", email = "", role = c("ctb"), comment = c(StacksOverflow = "https://stackoverflow.com/users/6498638/shosaco")),
+    person("Scott", "Kaiser", email = "", role = c("ctb"), comment = c(StacksOverflow = "https://stackoverflow.com/users/3462007/scott-kaiser"))
     )
 Description: The package allows you to download the GWAS database and to map the GWAS data to HGNC symbols. It filters out all SNPs that are not mapped to existing genes, and eventually produces a list of data frames, where each list corresponds to a different HGNC symbol.
 License: file LICENSE
