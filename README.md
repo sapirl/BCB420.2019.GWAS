@@ -871,6 +871,7 @@ GWASprocessed[40939, c("MAPPED_GENE", "STRONGEST SNP-RISK ALLELE", "SNPS" ,"RISK
 ```
 <br>
 Checking weather the number of values in "STRONGEST SNP-RISK ALLELE" and "SNPS" is equal  
+
 ```R
 stringr::str_count(GWASprocessed[40939, c("STRONGEST SNP-RISK ALLELE", "SNPS")], "\\, ")
 #[1] 27 27
