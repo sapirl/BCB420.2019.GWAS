@@ -134,7 +134,7 @@ Quoted and paraphrased from [GWAS websit](https://www.ebi.ac.uk/gwas/docs/file-d
 - **GENOTYPING_TECHNOLOGY**: Genotyping technology/ies used in this study, with additional array information (ex. Immunochip or Exome array) in brackets.
 
 <br>
-[Full Description of Abbreviations used in the Catalog](https://www.ebi.ac.uk/gwas/docs/abbreviations)
+Full Description of Abbreviations used in the [Catalog](https://www.ebi.ac.uk/gwas/docs/abbreviations)
 <br><br><br>
 
 
@@ -310,7 +310,7 @@ GWASprocessed <- GWASraw[,c("DISEASE/TRAIT", #of which the SNP has association t
 <br>
 <br>
 
-###**4 Filtering out unnecessary observations**
+### **4 Filtering out unnecessary observations**
 
 ----
 
@@ -319,7 +319,7 @@ As explained earlier, there are non informative observations in the data that we
 <br>
 <br>
 
-####**4.1 Dealing with intergenic SNPs**
+#### **4.1 Dealing with intergenic SNPs**
 
 The "intergenic" column provides the information of whether the SNP is intergenic or within a gene.  
 Our goal is to map SNPs to their corresponding HGNC symbols, which exists for genes and not for intergenic regions.  
@@ -339,7 +339,7 @@ Also, we should observe the data that retrieves NA, for the sake of deciding whi
 <br>
 <br>
 
-#####**4.1.1 Dealing With NAs**
+##### **4.1.1 Dealing With NAs**
 Observing the data that has NA in the "INTERGENIC" column
 ```R
 NAintronic <- GWASprocessed[base::which(base::is.na(GWASprocessed$INTERGENIC)),]
@@ -531,7 +531,7 @@ When observing the filtered data's structure (that is presented in the code abov
 <br>
 <br>
 
-#####**4.1.2 Dealing With Intergenic SNPs**
+##### **4.1.2 Dealing With Intergenic SNPs**
 After creaing a separate subset of GWAS data that is not intergenic although it retreived NAs, we can delete all SNPs data that retreive NAs within the "INTERGENIC" column from the main GWAS database, and later on binding the subset of 66 non-intergenic rows.
 ```R
 GWASprocessed <- GWASprocessed[!is.na(GWASprocessed$INTERGENIC), ]
@@ -547,7 +547,7 @@ GWASprocessed <- GWASprocessed[GWASprocessed$INTERGENIC == 0, ]
 For now, I will not bind the main dataset (the "GWASprocessed") to the small subset ("GWASsubset"), because both datasets should go through more cleanups: both datasets contains rows with multiple SNP data, but both cases uses different separation semantics. This means that they should be handled separately in order to prevent the creation of buggs. More explanation will be provided in section 4.3.
 <br><br><br>
 
-####**4.2 Filtering out every SNP that has missing value in the MAPPED_GENE column**
+#### **4.2 Filtering out every SNP that has missing value in the MAPPED_GENE column**
 For SNPs that were not mapped to a gene, the content of the "MAPPED_GENE" column is could be either "" or NA. In order to make sure that the current database has only rows that have data within the "MAPPED_GENE" column, we should check whether there is a need to filter out "" and / or NAs.  
 ```R
 #the following expressions retreives the number of rows of MAPPED_GENE == ""
@@ -566,14 +566,14 @@ base::sum(base::is.na(GWASsubset$MAPPED_GENE))
 ```
 <br><br>
 
-####**4.3 Separating rows of SNPs that has more than one mapped gene**
+#### **4.3 Separating rows of SNPs that has more than one mapped gene**
 Some rows within "GWASsubset" and "GWASprocessed" obtain data for more than one SNP, and some rows also obtain more than one mapped gene.  
 As part of the semantics described in section 2, we can see that " - " within the "MAPPED_GENE" column denotes for an intergenic SNP (between two mentioned genes). Also, some HGNC symbol contain "-" as part of their identifiers (e.g., "5-HT3C2" gene). This means that "-" or " - " can't act as separators between values.  
 Semicolon, comma, space and tab can be hypothetically used for separation. 
 
 <br>
 
-#####**4.3.1 GWASsubset**
+##### **4.3.1 GWASsubset**
 When observing the "GWASsubset" data, we cab see that the columns: "MAPPED_GENE", "STRONGEST SNP-RISK ALLELE", "SNPS", "CONTEXT", may contain more than one value, and all values are separated with a semicolon and space "; ".
 ```R
 utils::head(GWASsubset)
@@ -757,7 +757,7 @@ base::nrow(GWASsubset)
 <br>
 <br>
 
-#####**4.3.2 GWASprocessed**
+##### **4.3.2 GWASprocessed**
 Searching for separators  
 First, searching for semicolons
 ```R
@@ -935,7 +935,7 @@ base::nrow(GWASprocessed)
 ```
 <br>
 
-####**4.4 Filtering out every SNP that is mapped to genes without characterization**
+#### **4.4 Filtering out every SNP that is mapped to genes without characterization**
 Mapped genes denoted with "LOC" + numeric identifier, correspond to genes that hadn't been characterized yet
 Those genes have no corresponding HGNC symbols  
 ```R
@@ -943,7 +943,7 @@ GWASprocessed <- GWASprocessed[!base::grepl(x = GWASprocessed$MAPPED_GENE,  patt
 ```
 <br>
 
-####**4.5 Combining GWASprocessed and GWASsubset**
+#### **4.5 Combining GWASprocessed and GWASsubset**
 ```R
 GWASprocessed <- base::rbind(GWASprocessed, GWASsubset)
 ```
@@ -957,7 +957,7 @@ GWASprocessed$INTERGENIC <- NULL
 
 
                       
-###**5.0 Mapping GWAS's SNP IDs to HGNC symbols**
+### **5.0 Mapping GWAS's SNP IDs to HGNC symbols**
 
 ----
 
@@ -1082,7 +1082,7 @@ load(file = file.path("inst", "extdata", "gwas2sym.RData"))
 
 <br><br>
 
-###**6 Annotating gene sets with GWAS Data**
+### **6 Annotating gene sets with GWAS Data**
 
 ----
 
@@ -1092,7 +1092,7 @@ Given our mapping tool, we can now annotate gene sets with GWAS data.
 The following ideas for which annotations should I performed, were contributed by the author Boris Steipe, as well as "6.1" mathematic equation.
 <br>
 
-####**6.1 Percentage of phenotype-associated SNPs attributed to a genes**
+#### **6.1 Percentage of phenotype-associated SNPs attributed to a genes**
 
 The percentage of phenotype-associated SNPs that can be attributed to a gene, is equal to the number of phenotype-associated SNPs that can be attributed to a gene * 100 / the number of all phenotype-associated SNPs.  
 <br>
@@ -1136,7 +1136,7 @@ p
 
 <br><br>
 
-####**6.2 Distribution of number-of-associated phenotypes over a gene**
+#### **6.2 Distribution of number-of-associated phenotypes over a gene**
 
 Fetching the number of associated phenotypes over the HGNC symbols
 ```R
@@ -1182,7 +1182,7 @@ p
 
 <br>
 
-####**6.3 Scatter plot for the correlation between SNPs percentage and phenotype distribution**
+#### **6.3 Scatter plot for the correlation between SNPs percentage and phenotype distribution**
 
 Creating a table that contains both phenotype counts and SNPs percentage data
 ```R
@@ -1206,7 +1206,7 @@ p
 <br>
 
 
-###**7.0 Validating the import process**
+### **7.0 Validating the import process**
 
 ----
 
@@ -1280,10 +1280,10 @@ If that is the case, may the reason be that `biomaRt` package contains partial i
 
 <br><br>
 
-###**8 Annotating the example dataset" **
+### **8 Annotating the example dataset" **
 <br>
 
-####**8.1 Loading the example gene set**
+#### **8.1 Loading the example gene set**
 
 The example gene set was constructed by the author Boris Steipe, and copied from [BCB420-2019-resources repository](https://github.com/hyginn/BCB420-2019-resources/blob/master/exampleGeneSet.md)
 ```R
