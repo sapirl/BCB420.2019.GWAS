@@ -1245,7 +1245,7 @@ The following code was copied from the code written by the author Boris Steipe, 
 ``` 
 <br>
 
-Compering `tmp$hgnc_symbol` with the final genesymbols of the gwas2sym database  
+Compering `tmp$hgnc_symbol` with the final genesymbols of the `gwas2sym` database  
 ```R
 base::setdiff(names(gwas2sym), tmp$hgnc_symbol)
 #  [1] "RPS10P26"         "LPCAT1 /// GPAT3" "CASC21"           "TRA"              "ZZZ3"            
@@ -1298,7 +1298,7 @@ If that is the case, may the reason be that `biomaRt` package contains partial i
 
 <br><br>
 
-### **8 Annotating the example dataset" **
+### **8 Annotating the example dataset**
 <br>
 
 #### **8.1 Loading the example gene set**
