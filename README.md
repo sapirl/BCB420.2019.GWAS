@@ -781,6 +781,7 @@ SearchSeparator(data = GWASprocessed, separator = ";")
 ```
 <br>
 When we observe the "DISEASE/TRAIR" columns that has semicolons, we can see that the semicolons are not separators
+
 ```R
 GWASprocessed[base::grep(x = GWASprocessed$`DISEASE/TRAIT`, pattern = ";"), "DISEASE/TRAIT"]
 # [1] "&beta;2-Glycoprotein I (&beta;2-GPI) plasma levels" "&beta;2-Glycoprotein I (&beta;2-GPI) plasma levels"
