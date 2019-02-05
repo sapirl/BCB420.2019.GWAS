@@ -740,6 +740,7 @@ columnsToCheck[base::lengths(base::apply(semicolonCount, 1, function(x) unique(x
 <br>
 So, the reason the data doesn't match is due to missing data within those rows.  
 In order to be able to separate the rows within the "GWASsubset" dataset, I will remove those two rows from the analysis.
+
 ```R
 #Deleting the two rows
 GWASsubset <- GWASsubset[base::lengths(base::apply(semicolonCount, 1, function(x) unique(x))) == 1, ]
