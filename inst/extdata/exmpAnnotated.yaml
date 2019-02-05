@@ -1,0 +1,2362 @@
+AMBRA1:
+  DISEASE/TRAIT:
+  - Interleukin-17 levels
+  - Schizophrenia
+  - Total body bone mineral density
+  MAPPED_GENE:
+  - AMBRA1
+  - AMBRA1
+  - AMBRA1
+  STRONGEST SNP-RISK ALLELE:
+  - rs148500124-G
+  - rs61882743-G
+  - rs7112229-T
+  SNPS:
+  - rs148500124
+  - rs61882743
+  - rs7112229
+  MERGED:
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '148500124'
+  - '61882743'
+  - '7112229'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - ''
+  - NR
+  - '0.1637'
+  P-VALUE:
+  - 8E-6
+  - 7E-12
+  - 2E-10
+  PVALUE_MLOG:
+  - 5.09691
+  - 11.154902
+  - 9.69897
+  OR or BETA:
+  - 0.3228
+  - 1.0940919
+  - 0.0537
+ATG14:
+  DISEASE/TRAIT: Platelet distribution width
+  MAPPED_GENE: ATG14
+  STRONGEST SNP-RISK ALLELE: rs72717751-C
+  SNPS: rs72717751
+  MERGED: 0
+  SNP_ID_CURRENT: '72717751'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.0943'
+  P-VALUE: 9E-10
+  PVALUE_MLOG: 9.0457575
+  OR or BETA: 0.0376728
+ATP2A1:
+  DISEASE/TRAIT:
+  - Intelligence (MTAG)
+  - Cannabis use
+  MAPPED_GENE:
+  - ATP2A1
+  - ATP2A1
+  STRONGEST SNP-RISK ALLELE:
+  - rs2071342-A
+  - rs10499-A
+  SNPS:
+  - rs2071342
+  - rs10499
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '2071342'
+  - '10499'
+  CONTEXT:
+  - intron_variant
+  - 3_prime_UTR_variant
+  RISK ALLELE FREQUENCY:
+  - NR
+  - '0.651'
+  P-VALUE:
+  - 5E-12
+  - 1E-9
+  PVALUE_MLOG:
+  - 11.30103
+  - 9.0
+  OR or BETA:
+  - 0.02117
+  - 0.053
+ATP2A2:
+  DISEASE/TRAIT:
+  - Glucose homeostasis traits
+  - Schizophrenia
+  - Schizophrenia
+  - QT interval
+  - Schizophrenia
+  - Schizophrenia
+  MAPPED_GENE:
+  - ATP2A2
+  - ATP2A2
+  - ATP2A2
+  - ATP2A2
+  - ATP2A2
+  - ATP2A2
+  STRONGEST SNP-RISK ALLELE:
+  - rs3026485-?
+  - rs4766428-T
+  - rs4766428-T
+  - rs3026445-C
+  - rs4766428-T
+  - rs4766428-?
+  SNPS:
+  - rs3026485
+  - rs4766428
+  - rs4766428
+  - rs3026445
+  - rs4766428
+  - rs4766428
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '3026485'
+  - '4766428'
+  - '4766428'
+  - '3026445'
+  - '4766428'
+  - '4766428'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - ''
+  - NR
+  - '0.474'
+  - '0.356'
+  - NR
+  - NR
+  P-VALUE:
+  - 7E-6
+  - 2E-10
+  - 1E-9
+  - 3E-12
+  - 3E-9
+  - 3E-14
+  PVALUE_MLOG:
+  - 5.154902
+  - 9.69897
+  - 9.0
+  - 11.5228787
+  - 8.5228787
+  - 13.5228787
+  OR or BETA:
+  - 15.24
+  - 1.07
+  - 1.068
+  - 0.62
+  - 1.065
+  - 1.0787487
+ATP2A3:
+  DISEASE/TRAIT: Glucose homeostasis traits
+  MAPPED_GENE: ATP2A3
+  STRONGEST SNP-RISK ALLELE: rs1006703-?
+  SNPS: rs1006703
+  MERGED: 0
+  SNP_ID_CURRENT: '1006703'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 3E-6
+  PVALUE_MLOG: 5.5228787
+  OR or BETA: 2.13
+BECN1:
+  DISEASE/TRAIT: Type 2 diabetes (age of onset)
+  MAPPED_GENE: BECN1
+  STRONGEST SNP-RISK ALLELE: rs10512488-?
+  SNPS: rs10512488
+  MERGED: 0
+  SNP_ID_CURRENT: '10512488'
+  CONTEXT: non_coding_transcript_exon_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 3E-6
+  PVALUE_MLOG: 5.5228787
+  OR or BETA: .na.real
+BIRC6:
+  DISEASE/TRAIT:
+  - Interleukin-18 levels
+  - Educational attainment (MTAG)
+  - Self-reported math ability (MTAG)
+  - Cognitive performance
+  - Cognitive performance (MTAG)
+  - Highest math class taken (MTAG)
+  MAPPED_GENE:
+  - BIRC6
+  - BIRC6
+  - BIRC6
+  - BIRC6
+  - BIRC6
+  - BIRC6
+  STRONGEST SNP-RISK ALLELE:
+  - rs2599510-G
+  - rs2710634-T
+  - rs2599510-A
+  - rs17428810-T
+  - rs17428810-T
+  - rs2710634-T
+  SNPS:
+  - rs2599510
+  - rs2710634
+  - rs2599510
+  - rs17428810
+  - rs17428810
+  - rs2710634
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '2599510'
+  - '2710634'
+  - '2599510'
+  - '17428810'
+  - '17428810'
+  - '2710634'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - ''
+  - '0.4801'
+  - '0.4998'
+  - '0.6951'
+  - '0.6951'
+  - '0.4855'
+  P-VALUE:
+  - 8E-11
+  - 4E-8
+  - 5E-9
+  - 8E-9
+  - 8E-10
+  - 2E-10
+  PVALUE_MLOG:
+  - 10.09691
+  - 7.39794
+  - 8.30103
+  - 8.09691
+  - 9.09691
+  - 9.69897
+  OR or BETA:
+  - 0.1516
+  - 0.0072
+  - 0.0105
+  - 0.0179
+  - 0.0153
+  - 0.0105
+BORCS5:
+  DISEASE/TRAIT:
+  - Lymphocyte counts
+  - Lymphocyte percentage of white cells
+  MAPPED_GENE:
+  - BORCS5
+  - BORCS5
+  STRONGEST SNP-RISK ALLELE:
+  - rs61923561-A
+  - rs61923561-A
+  SNPS:
+  - rs61923561
+  - rs61923561
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '61923561'
+  - '61923561'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.0151'
+  - '0.0151'
+  P-VALUE:
+  - 3E-14
+  - 2E-10
+  PVALUE_MLOG:
+  - 13.5228787
+  - 9.69897
+  OR or BETA:
+  - 0.1217438
+  - 0.1005446
+BORCS7:
+  DISEASE/TRAIT:
+  - Arsenic metabolism
+  - Systolic blood pressure
+  - Diastolic blood pressure
+  - Hypertension
+  - Diastolic blood pressure (long-term average)
+  - Mean arterial pressure (long-term average)
+  - Body mass index
+  - Body mass index
+  - Body mass index
+  MAPPED_GENE:
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  - BORCS7
+  STRONGEST SNP-RISK ALLELE:
+  - rs9527-?
+  - rs4409766-T
+  - rs4409766-T
+  - rs4409766-T
+  - rs4409766-T
+  - rs4409766-T
+  - rs4409766-C
+  - rs4409766-C
+  - rs4409766-T
+  SNPS:
+  - rs9527
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  - rs4409766
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '9527'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  - '4409766'
+  CONTEXT:
+  - 3_prime_UTR_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - NR
+  - '0.71'
+  - '0.71'
+  - '0.71'
+  - '0.72'
+  - '0.72'
+  - '0.282'
+  - '0.09'
+  - NR
+  P-VALUE:
+  - 3E-9
+  - 6E-17
+  - 6E-13
+  - 7E-13
+  - 8E-9
+  - 1E-11
+  - 5E-11
+  - 6E-17
+  - 2E-12
+  PVALUE_MLOG:
+  - 8.5228787
+  - 16.2218487
+  - 12.2218487
+  - 12.154902
+  - 8.09691
+  - 11.0
+  - 10.30103
+  - 16.2218487
+  - 11.69897
+  OR or BETA:
+  - .na.real
+  - 1.24
+  - 0.59
+  - .na.real
+  - 0.4
+  - 0.54
+  - 0.025
+  - 0.026
+  - 0.029
+BORCS8:
+  DISEASE/TRAIT: Obsessive-compulsive symptoms
+  MAPPED_GENE: BORCS8
+  STRONGEST SNP-RISK ALLELE: rs8100480-C
+  SNPS: rs8100480
+  MERGED: 0
+  SNP_ID_CURRENT: '8100480'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 3E-8
+  PVALUE_MLOG: 7.5228787
+  OR or BETA: 1.4095
+CACNA1A:
+  DISEASE/TRAIT:
+  - Exfoliation syndrome
+  - Proteinuria and chronic kidney disease
+  - Exfoliation syndrome
+  - Endometriosis
+  MAPPED_GENE:
+  - CACNA1A
+  - CACNA1A
+  - CACNA1A
+  - CACNA1A
+  STRONGEST SNP-RISK ALLELE:
+  - rs4926244-G
+  - rs56052703-?
+  - rs4926244-G
+  - rs11085835-T
+  SNPS:
+  - rs4926244
+  - rs56052703
+  - rs4926244
+  - rs11085835
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '4926244'
+  - '56052703'
+  - '4926244'
+  - '11085835'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.27'
+  - '0.66'
+  - '0.16'
+  - '0.2908'
+  P-VALUE:
+  - 7E-6
+  - 3E-6
+  - 3E-11
+  - 3E-7
+  PVALUE_MLOG:
+  - 5.154902
+  - 5.5228787
+  - 10.5228787
+  - 6.5228787
+  OR or BETA:
+  - 1.14
+  - 1.67
+  - 1.16
+  - 2.047
+CALCOCO2:
+  DISEASE/TRAIT: Blood protein levels
+  MAPPED_GENE: CALCOCO2
+  STRONGEST SNP-RISK ALLELE: rs550510-G
+  SNPS: rs550510
+  MERGED: 0
+  SNP_ID_CURRENT: '550510'
+  CONTEXT: missense_variant
+  RISK ALLELE FREQUENCY: '0.843'
+  P-VALUE: 1E-8
+  PVALUE_MLOG: 8.0
+  OR or BETA: 0.19
+EPG5:
+  DISEASE/TRAIT:
+  - Response to paliperidone in schizophrenia (positive Marder score)
+  - Response to paliperidone in schizophrenia (PANSS score)
+  MAPPED_GENE:
+  - EPG5
+  - EPG5
+  STRONGEST SNP-RISK ALLELE:
+  - rs11082490-?
+  - rs11082490-?
+  SNPS:
+  - rs11082490
+  - rs11082490
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '11082490'
+  - '11082490'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - NR
+  - NR
+  P-VALUE:
+  - 2E-6
+  - 5E-6
+  PVALUE_MLOG:
+  - 5.69897
+  - 5.30103
+  OR or BETA:
+  - 0.2858119
+  - 0.2760101
+HDAC6:
+  DISEASE/TRAIT: Facial morphology (factor 17, height of vermillion upper lip)
+  MAPPED_GENE: HDAC6
+  STRONGEST SNP-RISK ALLELE: rs191407208-A
+  SNPS: rs191407208
+  MERGED: 0
+  SNP_ID_CURRENT: '191407208'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.007359'
+  P-VALUE: 2E-6
+  PVALUE_MLOG: 5.69897
+  OR or BETA: 0.8159
+HSPB8:
+  DISEASE/TRAIT: PR interval in Tripanosoma cruzi seropositivity
+  MAPPED_GENE: HSPB8
+  STRONGEST SNP-RISK ALLELE: rs78852656-?
+  SNPS: rs78852656
+  MERGED: 0
+  SNP_ID_CURRENT: '78852656'
+  CONTEXT: non_coding_transcript_exon_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 4E-8
+  PVALUE_MLOG: 7.39794
+  OR or BETA: .na.real
+INPP5E:
+  DISEASE/TRAIT:
+  - Monocyte percentage of white cells
+  - Hemoglobin A1c levels
+  MAPPED_GENE:
+  - INPP5E
+  - INPP5E
+  STRONGEST SNP-RISK ALLELE:
+  - rs10781543-C
+  - rs7851507-?
+  SNPS:
+  - rs10781543
+  - rs7851507
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '10781543'
+  - '7851507'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.4292'
+  - NR
+  P-VALUE:
+  - 7E-11
+  - 8E-11
+  PVALUE_MLOG:
+  - 10.154902
+  - 10.09691
+  OR or BETA:
+  - 0.0234422
+  - 0.05127
+IRGM:
+  DISEASE/TRAIT:
+  - Crohn's disease
+  - Crohn's disease
+  - Ulcerative colitis
+  - Crohn's disease
+  - Crohn's disease
+  - Crohn's disease
+  - Inflammatory bowel disease
+  - Inflammatory bowel disease
+  - Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis,
+    primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)
+  MAPPED_GENE:
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  - IRGM
+  STRONGEST SNP-RISK ALLELE:
+  - rs1000113-T
+  - rs11747270-G
+  - rs11741861-G
+  - rs11741861-G
+  - rs7714584-G
+  - rs11741861-?
+  - rs11741861-?
+  - rs11741861-G
+  - rs11749391-?
+  SNPS:
+  - rs1000113
+  - rs11747270
+  - rs11741861
+  - rs11741861
+  - rs7714584
+  - rs11741861
+  - rs11741861
+  - rs11741861
+  - rs11749391
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '1000113'
+  - '11747270'
+  - '11741861'
+  - '11741861'
+  - '7714584'
+  - '11741861'
+  - '11741861'
+  - '11741861'
+  - '11749391'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.07'
+  - '0.09'
+  - '0.07656'
+  - '0.07656'
+  - '0.088'
+  - ''
+  - ''
+  - '0.093'
+  - NR
+  P-VALUE:
+  - 3E-7
+  - 3E-16
+  - 7E-8
+  - 6E-44
+  - 8E-19
+  - 2E-19
+  - 3E-15
+  - 3E-37
+  - 2E-42
+  PVALUE_MLOG:
+  - 6.5228787
+  - 15.5228787
+  - 7.154902
+  - 43.2218487
+  - 18.09691
+  - 18.69897
+  - 14.5228787
+  - 36.5228787
+  - 41.69897
+  OR or BETA:
+  - 1.54
+  - 1.33
+  - 1.128044
+  - 1.3292114
+  - 1.37
+  - .na.real
+  - .na.real
+  - 1.249
+  - .na.real
+LAMP1:
+  DISEASE/TRAIT: Alzheimer disease and age of onset
+  MAPPED_GENE: LAMP1
+  STRONGEST SNP-RISK ALLELE: rs146168866-A
+  SNPS: rs146168866
+  MERGED: 0
+  SNP_ID_CURRENT: '146168866'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 9E-8
+  PVALUE_MLOG: 7.0457575
+  OR or BETA: 5.348
+LAMP3:
+  DISEASE/TRAIT:
+  - Bipolar disorder
+  - Bipolar disorder
+  - Subjective response to lithium treatment
+  MAPPED_GENE:
+  - LAMP3
+  - LAMP3
+  - LAMP3
+  STRONGEST SNP-RISK ALLELE:
+  - rs683395-G
+  - rs514636-?
+  - rs12493050-G
+  SNPS:
+  - rs683395
+  - rs514636
+  - rs12493050
+  MERGED:
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '683395'
+  - '514636'
+  - '12493050'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.08'
+  - NR
+  - '0.2'
+  P-VALUE:
+  - 5E-6
+  - 7E-7
+  - 9E-7
+  PVALUE_MLOG:
+  - 5.30103
+  - 6.154902
+  - 6.0457575
+  OR or BETA:
+  - 1.47
+  - .na.real
+  - 1.27
+MGRN1:
+  DISEASE/TRAIT: Milk allergy (maternal genetic effects)
+  MAPPED_GENE: MGRN1
+  STRONGEST SNP-RISK ALLELE: rs3848374-?
+  SNPS: rs3848374
+  MERGED: 0
+  SNP_ID_CURRENT: '3848374'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 4E-6
+  PVALUE_MLOG: 5.39794
+  OR or BETA: .na.real
+MYO6:
+  DISEASE/TRAIT:
+  - Prostate cancer
+  - Stem cell factor levels
+  - Intelligence
+  MAPPED_GENE:
+  - MYO6
+  - MYO6
+  - MYO6
+  STRONGEST SNP-RISK ALLELE:
+  - rs9443189-G
+  - rs149740635-C
+  - rs1280049-A
+  SNPS:
+  - rs9443189
+  - rs149740635
+  - rs1280049
+  MERGED:
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '9443189'
+  - '149740635'
+  - '1280049'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.14'
+  - ''
+  - NR
+  P-VALUE:
+  - 4E-8
+  - 6E-6
+  - 4E-8
+  PVALUE_MLOG:
+  - 7.39794
+  - 5.2218487
+  - 7.39794
+  OR or BETA:
+  - 1.08
+  - 1.177
+  - 5.494
+NSF:
+  DISEASE/TRAIT:
+  - Epithelial ovarian cancer
+  - Parkinson's disease
+  - Parkinson's disease
+  - Sense of smell
+  - Sense of smell
+  - Ovarian cancer in BRCA1 mutation carriers
+  - Ovarian cancer in BRCA1 mutation carriers
+  - Parkinson's disease
+  - Neuroticism
+  - Intelligence (MTAG)
+  - General cognitive ability
+  - Reaction time
+  - Intelligence
+  - Neuroticism
+  - Neuroticism
+  - Neuroticism
+  - Worry
+  - Male-pattern baldness
+  MAPPED_GENE:
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  - NSF
+  STRONGEST SNP-RISK ALLELE:
+  - rs183211-A
+  - rs183211-T
+  - rs199533-C
+  - rs199443-T
+  - rs199443-T
+  - rs183211-A
+  - rs183211-?
+  - rs199533-C
+  - rs199441-A
+  - rs7224296-A
+  - rs199460-?
+  - rs35937770-?
+  - rs17698176-T
+  - rs17698176-T
+  - rs17692129-T
+  - rs199447-T
+  - rs9896243-G
+  - rs538628-C
+  SNPS:
+  - rs183211
+  - rs183211
+  - rs199533
+  - rs199443
+  - rs199443
+  - rs183211
+  - rs183211
+  - rs199533
+  - rs199441
+  - rs7224296
+  - rs199460
+  - rs35937770
+  - rs17698176
+  - rs17698176
+  - rs17692129
+  - rs199447
+  - rs9896243
+  - rs538628
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '183211'
+  - '183211'
+  - '199533'
+  - '199443'
+  - '199443'
+  - '183211'
+  - '183211'
+  - '199533'
+  - '199441'
+  - '7224296'
+  - '199460'
+  - '35937770'
+  - '17698176'
+  - '17698176'
+  - '17692129'
+  - '199447'
+  - '9896243'
+  - '538628'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - synonymous_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - synonymous_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.24'
+  - '0.24'
+  - '0.78'
+  - '0.2'
+  - '0.2'
+  - '0.23'
+  - NR
+  - '0.83'
+  - '0.21750000000000003'
+  - NR
+  - NR
+  - NR
+  - NR
+  - NR
+  - NR
+  - NR
+  - NR
+  - NR
+  P-VALUE:
+  - 2E-13
+  - 3E-7
+  - 1E-6
+  - 3E-6
+  - 4E-6
+  - 3E-8
+  - 3E-8
+  - 1E-14
+  - 3E-20
+  - 5E-9
+  - 5E-8
+  - 1E-16
+  - 2E-8
+  - 2E-8
+  - 5E-8
+  - 2E-26
+  - 2E-11
+  - 4E-27
+  PVALUE_MLOG:
+  - 12.69897
+  - 6.5228787
+  - 6.0
+  - 5.5228787
+  - 5.39794
+  - 7.5228787
+  - 7.5228787
+  - 14.0
+  - 19.5228787
+  - 8.30103
+  - 7.30103
+  - 16.0
+  - 7.69897
+  - 7.69897
+  - 7.30103
+  - 25.69897
+  - 10.69897
+  - 26.39794
+  OR or BETA:
+  - 1.11
+  - .na.real
+  - 1.35
+  - 0.03
+  - 0.03
+  - 1.25
+  - .na.real
+  - 1.28
+  - 9.219
+  - 0.0189184
+  - 5.447
+  - 0.014359
+  - 5.64
+  - 5.631
+  - 5.453
+  - 10.659
+  - 0.01934
+  - 0.0800835
+OPTN:
+  DISEASE/TRAIT:
+  - Paget's disease
+  - Paget's disease
+  MAPPED_GENE:
+  - OPTN
+  - OPTN
+  STRONGEST SNP-RISK ALLELE:
+  - rs1561570-T
+  - rs1561570-?
+  SNPS:
+  - rs1561570
+  - rs1561570
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '1561570'
+  - '1561570'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.53'
+  - '0.55'
+  P-VALUE:
+  - 4E-38
+  - 6E-13
+  PVALUE_MLOG:
+  - 37.39794
+  - 12.2218487
+  OR or BETA:
+  - 1.67
+  - 1.54
+OSBPL1A:
+  DISEASE/TRAIT:
+  - Protein quantitative trait loci
+  - Osteoporosis-related phenotypes
+  - Dementia and core Alzheimer's disease neuropathologic changes
+  - Type 2 diabetes
+  MAPPED_GENE:
+  - OSBPL1A
+  - OSBPL1A
+  - OSBPL1A
+  - OSBPL1A
+  STRONGEST SNP-RISK ALLELE:
+  - rs9635963-?
+  - rs7227401-T
+  - rs12604324-A
+  - rs275856-T
+  SNPS:
+  - rs9635963
+  - rs7227401
+  - rs12604324
+  - rs275856
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '9635963'
+  - '7227401'
+  - '12604324'
+  - '275856'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.18'
+  - '0.39'
+  - '0.0201'
+  - '0.11'
+  P-VALUE:
+  - 2E-7
+  - 4E-7
+  - 1E-6
+  - 1E-6
+  PVALUE_MLOG:
+  - 6.69897
+  - 6.39794
+  - 6.0
+  - 6.0
+  OR or BETA:
+  - .na.real
+  - 0.17
+  - 1.8953
+  - 1.51
+PLEKHM1:
+  DISEASE/TRAIT:
+  - Remission after SSRI treatment in MDD or neuroticism
+  - Ovarian cancer in BRCA1 mutation carriers
+  - Ovarian cancer in BRCA1 mutation carriers
+  - Parkinson's disease
+  - Serous invasive ovarian cancer
+  - High-grade serous ovarian cancer
+  - Invasive epithelial ovarian cancer
+  - Ovarian cancer in BRCA1 mutation carriers
+  - Epithelial ovarian cancer
+  - Educational attainment (years of education)
+  - Heel bone mineral density
+  - Male-pattern baldness
+  MAPPED_GENE:
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  - PLEKHM1
+  STRONGEST SNP-RISK ALLELE:
+  - rs144733372-G
+  - rs17631303-G
+  - rs17631303-?
+  - rs11012-T
+  - rs1879586-G
+  - rs1879586-G
+  - rs1879586-G
+  - rs1879586-G
+  - rs1879586-G
+  - rs56192752-A
+  - rs375822897-?
+  - rs144733372-G
+  SNPS:
+  - rs144733372
+  - rs17631303
+  - rs17631303
+  - rs11012
+  - rs1879586
+  - rs1879586
+  - rs1879586
+  - rs1879586
+  - rs1879586
+  - rs56192752
+  - rs375822897
+  - rs144733372
+  MERGED:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  SNP_ID_CURRENT:
+  - '9899111'
+  - '17631303'
+  - '17631303'
+  - '11012'
+  - '1879586'
+  - '1879586'
+  - '1879586'
+  - '1879586'
+  - '1879586'
+  - '56192752'
+  - '375822897'
+  - '9899111'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - 3_prime_UTR_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - 3_prime_UTR_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - NR
+  - '0.19'
+  - NR
+  - NR
+  - '0.181254'
+  - '0.181254'
+  - '0.181254'
+  - '0.181254'
+  - '0.181254'
+  - '0.8218'
+  - NR
+  - NR
+  P-VALUE:
+  - 3E-11
+  - 1E-8
+  - 1E-8
+  - 6E-8
+  - 3E-12
+  - 3E-13
+  - 2E-13
+  - 7E-6
+  - 2E-19
+  - 9E-31
+  - 2E-24
+  - 2E-22
+  PVALUE_MLOG:
+  - 10.5228787
+  - 8.0
+  - 8.0
+  - 7.2218487
+  - 11.5228787
+  - 12.5228787
+  - 12.69897
+  - 5.154902
+  - 18.69897
+  - 30.0457575
+  - 23.69897
+  - 21.69897
+  OR or BETA:
+  - .na.real
+  - 1.27
+  - .na.real
+  - 1.43
+  - 1.1472089
+  - 1.1585579
+  - 1.1339011
+  - 1.1804551
+  - 1.1611373
+  - 0.0218
+  - 0.0278212
+  - 0.076714
+PSEN1:
+  DISEASE/TRAIT: Highest math class taken (MTAG)
+  MAPPED_GENE: PSEN1
+  STRONGEST SNP-RISK ALLELE: rs17125457-T
+  SNPS: rs17125457
+  MERGED: 0
+  SNP_ID_CURRENT: '17125457'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.184'
+  P-VALUE: 1E-8
+  PVALUE_MLOG: 8.0
+  OR or BETA: 0.0121
+RAB20:
+  DISEASE/TRAIT: Accelerated cognitive decline after conversion of mild cognitive
+    impairment to Alzheimer's disease (Alzhiemer's diagnosis trajectory interaction)
+  MAPPED_GENE: RAB20
+  STRONGEST SNP-RISK ALLELE: rs56378310-?
+  SNPS: rs56378310
+  MERGED: 0
+  SNP_ID_CURRENT: '56378310'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: ''
+  P-VALUE: 2E-6
+  PVALUE_MLOG: 5.69897
+  OR or BETA: 2.98
+RAB21:
+  DISEASE/TRAIT: General cognitive ability
+  MAPPED_GENE: RAB21
+  STRONGEST SNP-RISK ALLELE: rs61754230-T
+  SNPS: rs61754230
+  MERGED: 0
+  SNP_ID_CURRENT: '61754230'
+  CONTEXT: missense_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 5E-8
+  PVALUE_MLOG: 7.30103
+  OR or BETA: 5.462
+RAB29:
+  DISEASE/TRAIT:
+  - Essential tremor
+  - Monocyte percentage of white cells
+  MAPPED_GENE:
+  - RAB29
+  - RAB29
+  STRONGEST SNP-RISK ALLELE:
+  - rs823141-C
+  - rs823143-C
+  SNPS:
+  - rs823141
+  - rs823143
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '823141'
+  - '823143'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.4217'
+  - '0.4311'
+  P-VALUE:
+  - 2E-6
+  - 4E-10
+  PVALUE_MLOG:
+  - 5.69897
+  - 9.39794
+  OR or BETA:
+  - 1.17
+  - 0.0222925
+RPTOR:
+  DISEASE/TRAIT:
+  - Body mass index
+  - Body mass index
+  - Body mass index
+  - Body mass index
+  - Moyamoya disease
+  - Schizophrenia
+  - Myopia (pathological)
+  - Obesity
+  - BMI (adjusted for smoking behaviour)
+  - BMI (adjusted for smoking behaviour)
+  - Body mass index (joint analysis main effects and smoking interaction)
+  - Body mass index (joint analysis main effects and smoking interaction)
+  - BMI in non-smokers
+  - BMI in non-smokers
+  - Airway responsiveness in chronic obstructive pulmonary disease
+  - Body mass index
+  - Cognitive empathy
+  - Educational attainment (MTAG)
+  - Pulse pressure
+  - Blood protein levels
+  - Body mass index
+  MAPPED_GENE:
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  - RPTOR
+  STRONGEST SNP-RISK ALLELE:
+  - rs12940622-G
+  - rs12940622-G
+  - rs12940622-G
+  - rs12939549-A
+  - rs4969426-T
+  - rs8066384-C
+  - rs7215564-?
+  - rs7503807-A
+  - rs12940622-A
+  - rs12940622-A
+  - rs12940622-A
+  - rs12940622-A
+  - rs12940622-A
+  - rs12940622-A
+  - rs2672886-C
+  - rs12940622-A
+  - rs4969427-A
+  - rs1045626-T
+  - rs139293840-?
+  - rs62069681-C
+  - rs12939549-A
+  SNPS:
+  - rs12940622
+  - rs12940622
+  - rs12940622
+  - rs12939549
+  - rs4969426
+  - rs8066384
+  - rs7215564
+  - rs7503807
+  - rs12940622
+  - rs12940622
+  - rs12940622
+  - rs12940622
+  - rs12940622
+  - rs12940622
+  - rs2672886
+  - rs12940622
+  - rs4969427
+  - rs1045626
+  - rs139293840
+  - rs62069681
+  - rs12939549
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '12940622'
+  - '12940622'
+  - '12940622'
+  - '12939549'
+  - '4969426'
+  - '8066384'
+  - '7215564'
+  - '7503807'
+  - '12940622'
+  - '12940622'
+  - '12940622'
+  - '12940622'
+  - '12940622'
+  - '12940622'
+  - '2672886'
+  - '12940622'
+  - '4969427'
+  - '1045626'
+  - '139293840'
+  - '62069681'
+  - '12939549'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - 3_prime_UTR_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.577'
+  - '0.575'
+  - '0.572'
+  - '0.570476354917151'
+  - '0.23'
+  - NR
+  - '0.1'
+  - '0.57'
+  - '0.4324'
+  - '0.4324'
+  - '0.4324'
+  - '0.4324'
+  - '0.4324'
+  - '0.4324'
+  - '0.457'
+  - '0.43'
+  - NR
+  - '0.4824'
+  - NR
+  - '0.093'
+  - NR
+  P-VALUE:
+  - 5E-7
+  - 2E-9
+  - 4E-10
+  - 7E-11
+  - 2E-14
+  - 7E-6
+  - 2E-6
+  - 2E-8
+  - 7E-7
+  - 2E-8
+  - 1E-7
+  - 2E-6
+  - 2E-6
+  - 5E-7
+  - 9E-6
+  - 6E-9
+  - 3E-6
+  - 8E-9
+  - 3E-10
+  - 8E-35
+  - 3E-11
+  PVALUE_MLOG:
+  - 6.30103
+  - 8.69897
+  - 9.39794
+  - 10.154902
+  - 13.69897
+  - 5.154902
+  - 5.69897
+  - 7.69897
+  - 6.154902
+  - 7.69897
+  - 7.0
+  - 5.69897
+  - 5.69897
+  - 6.30103
+  - 5.0457575
+  - 8.2218487
+  - 5.5228787
+  - 8.09691
+  - 9.5228787
+  - 34.09691
+  - 10.5228787
+  OR or BETA:
+  - 0.021
+  - 0.018
+  - 0.018
+  - 0.017548
+  - 1.43
+  - 1.0526316
+  - .na.real
+  - 1.04
+  - 0.0232
+  - 0.0178
+  - .na.real
+  - .na.real
+  - 0.0258
+  - 0.0182
+  - 0.051
+  - 0.014
+  - 0.1559
+  - 0.0076
+  - 0.1079
+  - 0.51
+  - 0.017
+RUBCNL:
+  DISEASE/TRAIT: Itch intensity from mosquito bite adjusted by bite size
+  MAPPED_GENE: RUBCNL
+  STRONGEST SNP-RISK ALLELE: rs182949672-T
+  SNPS: rs182949672
+  MERGED: 0
+  SNP_ID_CURRENT: '182949672'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 2E-6
+  PVALUE_MLOG: 5.69897
+  OR or BETA: 0.7005
+STX17:
+  DISEASE/TRAIT: Alopecia areata
+  MAPPED_GENE: STX17
+  STRONGEST SNP-RISK ALLELE: rs10760706-G
+  SNPS: rs10760706
+  MERGED: 0
+  SNP_ID_CURRENT: '10760706'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.31'
+  P-VALUE: 4E-7
+  PVALUE_MLOG: 6.39794
+  OR or BETA: 1.32
+STX6:
+  DISEASE/TRAIT:
+  - Progressive supranuclear palsy
+  - Menopause (age at onset)
+  - Progressive supranuclear palsy
+  MAPPED_GENE:
+  - STX6
+  - STX6
+  - STX6
+  STRONGEST SNP-RISK ALLELE:
+  - rs1411478-?
+  - rs1411478-A
+  - rs57113693-?
+  SNPS:
+  - rs1411478
+  - rs1411478
+  - rs57113693
+  MERGED:
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '1411478'
+  - '1411478'
+  - '57113693'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.58'
+  - '0.41'
+  - ''
+  P-VALUE:
+  - 4E-11
+  - 1E-10
+  - 9E-16
+  PVALUE_MLOG:
+  - 10.39794
+  - 10.0
+  - 15.0457575
+  OR or BETA:
+  - 1.27
+  - 0.13
+  - .na.real
+SYT7:
+  DISEASE/TRAIT:
+  - Intelligence (MTAG)
+  - Cognitive performance
+  - Cognitive performance (MTAG)
+  - Educational attainment (years of education)
+  MAPPED_GENE:
+  - SYT7
+  - SYT7
+  - SYT7
+  - SYT7
+  STRONGEST SNP-RISK ALLELE:
+  - rs10897167-A
+  - rs77128898-T
+  - rs77128898-T
+  - rs75033012-C
+  SNPS:
+  - rs10897167
+  - rs77128898
+  - rs77128898
+  - rs75033012
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '10897167'
+  - '77128898'
+  - '77128898'
+  - '75033012'
+  CONTEXT:
+  - synonymous_variant
+  - missense_variant
+  - missense_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - NR
+  - '0.0358'
+  - '0.0358'
+  - '0.0391'
+  P-VALUE:
+  - 5E-8
+  - 2E-9
+  - 3E-11
+  - 1E-11
+  PVALUE_MLOG:
+  - 7.30103
+  - 8.69897
+  - 10.5228787
+  - 11.0
+  OR or BETA:
+  - 0.0374096
+  - 0.0463
+  - 0.041
+  - 0.0258
+TARDBP:
+  DISEASE/TRAIT: Male-pattern baldness
+  MAPPED_GENE: TARDBP
+  STRONGEST SNP-RISK ALLELE: rs34247753-C
+  SNPS: rs34247753
+  MERGED: 0
+  SNP_ID_CURRENT: '34247753'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 1E-8
+  PVALUE_MLOG: 8.0
+  OR or BETA: 0.0482657
+TFEB:
+  DISEASE/TRAIT:
+  - Colorectal cancer
+  - Late-onset Alzheimer's disease
+  - Left ventricle wall thickness
+  - Creatinine levels
+  MAPPED_GENE:
+  - TFEB
+  - TFEB
+  - TFEB
+  - TFEB
+  STRONGEST SNP-RISK ALLELE:
+  - rs4711689-A
+  - rs148003968-A
+  - rs9349200-A
+  - rs35985639-?
+  SNPS:
+  - rs4711689
+  - rs148003968
+  - rs9349200
+  - rs35985639
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '4711689'
+  - '148003968'
+  - '9349200'
+  - '35985639'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - 5_prime_UTR_variant
+  RISK ALLELE FREQUENCY:
+  - '0.85'
+  - '0.003'
+  - '0.8491'
+  - NR
+  P-VALUE:
+  - 4E-8
+  - 5E-6
+  - 7E-6
+  - 1E-8
+  PVALUE_MLOG:
+  - 7.39794
+  - 5.30103
+  - 5.154902
+  - 8.0
+  OR or BETA:
+  - 1.11
+  - 0.81
+  - 0.0128
+  - 0.02412
+TMEM175:
+  DISEASE/TRAIT:
+  - Parkinson's disease
+  - Parkinson's disease
+  - Parkinson's disease
+  - Type 2 diabetes
+  - Systemic sclerosis
+  - Parkinson's disease
+  MAPPED_GENE:
+  - TMEM175
+  - TMEM175
+  - TMEM175
+  - TMEM175
+  - TMEM175
+  - TMEM175
+  STRONGEST SNP-RISK ALLELE:
+  - rs6599388-T
+  - rs6599389-A
+  - rs34311866-C
+  - rs2290402-?
+  - rs2290405-?
+  - rs34311866-C
+  SNPS:
+  - rs6599388
+  - rs6599389
+  - rs34311866
+  - rs2290402
+  - rs2290405
+  - rs34311866
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '6599388'
+  - '6599389'
+  - '34311866'
+  - '2290402'
+  - '2290405'
+  - '34311866'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - missense_variant
+  - 5_prime_UTR_variant
+  - splice_region_variant
+  - missense_variant
+  RISK ALLELE FREQUENCY:
+  - '0.31'
+  - '0.075'
+  - '0.191'
+  - NR
+  - ''
+  - '0.184'
+  P-VALUE:
+  - 4E-12
+  - 4E-8
+  - 1E-43
+  - 7E-6
+  - 2E-6
+  - 1E-50
+  PVALUE_MLOG:
+  - 11.39794
+  - 7.39794
+  - 43.0
+  - 5.154902
+  - 5.69897
+  - 50.0
+  OR or BETA:
+  - 1.16
+  - 1.31
+  - 1.27
+  - .na.real
+  - .na.real
+  - 1.23
+TOM1:
+  DISEASE/TRAIT:
+  - Ulcerative colitis
+  - Multiple myeloma
+  - Multiple myeloma and monoclonal gammopathy
+  - Cholesterol, total
+  - Inflammatory bowel disease
+  - Multiple myeloma
+  - Total cholesterol levels
+  - Lobe attachment (rater-scored or self-reported)
+  - HDL cholesterol
+  MAPPED_GENE:
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  - TOM1
+  STRONGEST SNP-RISK ALLELE:
+  - rs138788-A
+  - rs138740-C
+  - rs138740-C
+  - rs138777-A
+  - rs138788-?
+  - rs138747-A
+  - rs138777-A
+  - rs138737-?
+  - rs138777-G
+  SNPS:
+  - rs138788
+  - rs138740
+  - rs138740
+  - rs138777
+  - rs138788
+  - rs138747
+  - rs138777
+  - rs138737
+  - rs138777
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '138788'
+  - '138740'
+  - '138740'
+  - '138777'
+  - '138788'
+  - '138747'
+  - '138777'
+  - '138737'
+  - '138777'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.418'
+  - '0.415'
+  - '0.415'
+  - '0.36'
+  - ''
+  - ''
+  - '0.348'
+  - NR
+  - '0.591'
+  P-VALUE:
+  - 3E-8
+  - 6E-8
+  - 3E-7
+  - 5E-8
+  - 8E-6
+  - 3E-8
+  - 2E-8
+  - 2E-7
+  - 2E-6
+  PVALUE_MLOG:
+  - 7.5228787
+  - 7.2218487
+  - 6.5228787
+  - 7.30103
+  - 5.09691
+  - 7.5228787
+  - 7.69897
+  - 6.69897
+  - 5.69897
+  OR or BETA:
+  - 1.09
+  - 1.18
+  - 1.16
+  - 0.021
+  - .na.real
+  - 1.21
+  - 0.0214
+  - .na.real
+  - 0.175
+TPCN1:
+  DISEASE/TRAIT: Body mass index
+  MAPPED_GENE: TPCN1
+  STRONGEST SNP-RISK ALLELE: rs729062-A
+  SNPS: rs729062
+  MERGED: 0
+  SNP_ID_CURRENT: '729062'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.919700006608392'
+  P-VALUE: 9E-9
+  PVALUE_MLOG: 8.0457575
+  OR or BETA: 0.0377932
+TPCN2:
+  DISEASE/TRAIT:
+  - Hair color
+  - Hair color
+  - Blond vs. brown hair color
+  - Heel bone mineral density
+  - Heel bone mineral density
+  - Heel bone mineral density
+  - Low tan response
+  - Heel bone mineral density
+  - Heel bone mineral density
+  MAPPED_GENE:
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  - TPCN2
+  STRONGEST SNP-RISK ALLELE:
+  - rs72917317-T
+  - rs3750965-?
+  - rs35264875-T
+  - rs3829241-G
+  - rs3829241-G
+  - rs3829241-G
+  - rs72917317-G
+  - rs549361352-?
+  - rs3829241-?
+  SNPS:
+  - rs72917317
+  - rs3750965
+  - rs35264875
+  - rs3829241
+  - rs3829241
+  - rs3829241
+  - rs72917317
+  - rs549361352
+  - rs3829241
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '72917317'
+  - '3750965'
+  - '35264875'
+  - '3829241'
+  - '3829241'
+  - '3829241'
+  - '72917317'
+  - '549361352'
+  - '3829241'
+  CONTEXT:
+  - intron_variant
+  - missense_variant
+  - missense_variant
+  - missense_variant
+  - missense_variant
+  - missense_variant
+  - intron_variant
+  - intron_variant
+  - missense_variant
+  RISK ALLELE FREQUENCY:
+  - '0.097'
+  - NR
+  - '0.22'
+  - '0.597728'
+  - '0.598459'
+  - '0.596891'
+  - NR
+  - NR
+  - NR
+  P-VALUE:
+  - 1E-100
+  - 3E-7
+  - 4E-30
+  - 5E-21
+  - 6E-13
+  - 2E-9
+  - 1E-29
+  - 6E-23
+  - 9E-51
+  PVALUE_MLOG:
+  - 100.0
+  - 6.5228787
+  - 29.39794
+  - 20.30103
+  - 12.2218487
+  - 8.69897
+  - 29.0
+  - 22.2218487
+  - 50.0457575
+  OR or BETA:
+  - 0.176
+  - .na.real
+  - 2.49
+  - 0.0305759
+  - 0.031641
+  - 0.0299726
+  - 0.163
+  - 0.0315298
+  - 0.0304472
+TPPP:
+  DISEASE/TRAIT:
+  - Barrett's esophagus  or Esophageal adenocarcinoma
+  - Esophageal adenocarcinoma
+  - Reaction time
+  MAPPED_GENE:
+  - TPPP
+  - TPPP
+  - TPPP
+  STRONGEST SNP-RISK ALLELE:
+  - rs9918259-T
+  - rs75783973-A
+  - rs74553517-?
+  SNPS:
+  - rs9918259
+  - rs75783973
+  - rs74553517
+  MERGED:
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '9918259'
+  - '75783973'
+  - '74553517'
+  CONTEXT:
+  - 3_prime_UTR_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - ''
+  - ''
+  - NR
+  P-VALUE:
+  - 3E-9
+  - 2E-8
+  - 1E-6
+  PVALUE_MLOG:
+  - 8.5228787
+  - 7.69897
+  - 6.0
+  OR or BETA:
+  - 1.2
+  - 1.3303
+  - 0.0083835
+UVRAG:
+  DISEASE/TRAIT:
+  - Hemoglobin concentration
+  - HDL cholesterol
+  MAPPED_GENE:
+  - UVRAG
+  - UVRAG
+  STRONGEST SNP-RISK ALLELE:
+  - rs10899133-T
+  - rs34696509-?
+  SNPS:
+  - rs10899133
+  - rs34696509
+  MERGED:
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '10899133'
+  - '34696509'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.1063'
+  - '0.2128'
+  P-VALUE:
+  - 4E-10
+  - 2E-13
+  PVALUE_MLOG:
+  - 9.39794
+  - 12.69897
+  OR or BETA:
+  - 0.0359742
+  - 0.0323
+VAMP3:
+  DISEASE/TRAIT: Morning vs. evening chronotype
+  MAPPED_GENE: VAMP3
+  STRONGEST SNP-RISK ALLELE: rs11121022-C
+  SNPS: rs11121022
+  MERGED: 0
+  SNP_ID_CURRENT: '11121022'
+  CONTEXT: non_coding_transcript_exon_variant
+  RISK ALLELE FREQUENCY: '0.42'
+  P-VALUE: 2E-8
+  PVALUE_MLOG: 7.69897
+  OR or BETA: 1.07
+VAMP8:
+  DISEASE/TRAIT: Prostate cancer
+  MAPPED_GENE: VAMP8
+  STRONGEST SNP-RISK ALLELE: rs3731827-T
+  SNPS: rs3731827
+  MERGED: 0
+  SNP_ID_CURRENT: '3731827'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.584'
+  P-VALUE: 1E-9
+  PVALUE_MLOG: 9.0
+  OR or BETA: 1.13
+VAPA:
+  DISEASE/TRAIT: Diverticular disease
+  MAPPED_GENE: VAPA
+  STRONGEST SNP-RISK ALLELE: rs80261783-T
+  SNPS: rs80261783
+  MERGED: 0
+  SNP_ID_CURRENT: '80261783'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: '0.0193086608644621'
+  P-VALUE: 8E-6
+  PVALUE_MLOG: 5.09691
+  OR or BETA: 0.0086976
+VPS11:
+  DISEASE/TRAIT: Coronary artery disease
+  MAPPED_GENE: VPS11
+  STRONGEST SNP-RISK ALLELE: rs1185460-A
+  SNPS: rs1185460
+  MERGED: 0
+  SNP_ID_CURRENT: '1185460'
+  CONTEXT: non_coding_transcript_exon_variant
+  RISK ALLELE FREQUENCY: '0.593'
+  P-VALUE: 8E-7
+  PVALUE_MLOG: 6.09691
+  OR or BETA: 0.032
+VPS16:
+  DISEASE/TRAIT: Adolescent idiopathic scoliosis
+  MAPPED_GENE: VPS16
+  STRONGEST SNP-RISK ALLELE: rs730819-?
+  SNPS: rs730819
+  MERGED: 0
+  SNP_ID_CURRENT: '730819'
+  CONTEXT: intron_variant
+  RISK ALLELE FREQUENCY: NR
+  P-VALUE: 2E-43
+  PVALUE_MLOG: 42.69897
+  OR or BETA: .na.real
+VPS41:
+  DISEASE/TRAIT:
+  - Breast cancer and/or colorectal cancer
+  - Cognitive performance
+  - Subjective well-being (MTAG)
+  - Depression
+  - Neuroticism
+  MAPPED_GENE:
+  - VPS41
+  - VPS41
+  - VPS41
+  - VPS41
+  - VPS41
+  STRONGEST SNP-RISK ALLELE:
+  - rs1468348-T
+  - rs11984145-?
+  - rs35995292-G
+  - rs10274968-T
+  - rs10274968-T
+  SNPS:
+  - rs1468348
+  - rs11984145
+  - rs35995292
+  - rs10274968
+  - rs10274968
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '1468348'
+  - '11984145'
+  - '35995292'
+  - '10274968'
+  - '10274968'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.8'
+  - '0.0471'
+  - '0.3191'
+  - NR
+  - NR
+  P-VALUE:
+  - 5E-6
+  - 6E-6
+  - 3E-8
+  - 1E-8
+  - 9E-9
+  PVALUE_MLOG:
+  - 5.30103
+  - 5.2218487
+  - 7.5228787
+  - 8.0
+  - 8.0457575
+  OR or BETA:
+  - 1.39
+  - .na.real
+  - 0.011
+  - 5.711
+  - 5.758
+YKT6:
+  DISEASE/TRAIT:
+  - Type 2 diabetes
+  - Fasting plasma glucose
+  - Fasting plasma glucose
+  - Glycated hemoglobin levels
+  - Birth weight
+  - Type 2 diabetes
+  MAPPED_GENE:
+  - YKT6
+  - YKT6
+  - YKT6
+  - YKT6
+  - YKT6
+  - YKT6
+  STRONGEST SNP-RISK ALLELE:
+  - rs10278336-A
+  - rs917793-T
+  - rs917793-T
+  - rs3824065-C
+  - rs138715366-C
+  - rs2908282-A
+  SNPS:
+  - rs10278336
+  - rs917793
+  - rs917793
+  - rs3824065
+  - rs138715366
+  - rs2908282
+  MERGED:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  SNP_ID_CURRENT:
+  - '10278336'
+  - '917793'
+  - '917793'
+  - '3824065'
+  - '138715366'
+  - '2908282'
+  CONTEXT:
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  - intron_variant
+  RISK ALLELE FREQUENCY:
+  - '0.497434854705026'
+  - '0.1831'
+  - '0.1831'
+  - '0.5557'
+  - '0.99'
+  - '0.177394802964819'
+  P-VALUE:
+  - 6E-6
+  - 3E-24
+  - 1E-28
+  - 4E-35
+  - 1E-26
+  - 4E-9
+  PVALUE_MLOG:
+  - 5.2218487
+  - 23.5228787
+  - 28.0
+  - 34.39794
+  - 26.0
+  - 8.39794
+  OR or BETA:
+  - 1.07
+  - 0.1556513
+  - 0.1749305
+  - 0.0192
+  - 0.2441
+  - 0.0552
+
